@@ -18,16 +18,23 @@
                     type="button">
                     <i class="fas fa-heart"></i> Tambah Produk
                 </button>
-
-                <!-- Tombol Kategori Produk -->
-
             </div>
 
             <!-- Filter Produk -->
-            <div class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                href="#pablo">
-                <i class="fas fa-cog text-lg leading-lg text-emerald-600 opacity-75 cursor-pointer"></i>
-            </div>
+            <option-produk-page />
+
         </div>
     </div>
 </template>
+
+<script>
+
+import OptionProdukPage from '../Dropdowns/OptionProdukPage.vue';
+
+export default {
+    components: {
+        OptionProdukPage
+    }
+}
+
+</script>
